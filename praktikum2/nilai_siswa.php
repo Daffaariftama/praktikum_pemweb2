@@ -18,14 +18,14 @@
     <h2>Form Nilai Siswa</h2>
             <form class="border bordered p-3" method="get" action="">
         <div class="form-group row">
-            <label for="nama" class="col-4 col-form-label">Nama Lengkap</label> 
-            <div class="col-8">
+            <label for="nama" class="col-md-4 col-sm-12 col-form-label">Nama Lengkap</label> 
+            <div class="col-md-8 col-sm-6">
             <input id="nama" name="nama" placeholder="Masukkan Nama" type="text" class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label for="matkul" class="col-4 col-form-label">Mata Kuliah</label> 
-            <div class="col-8">
+            <label for="matkul" class="col-md-4 col-sm-12 col-form-label">Mata Kuliah</label> 
+            <div class="col-md-8 col-sm-6">
             <select id="matkul" name="matkul" class="custom-select">
                 <option value="Bahasa inggris">Bahasa inggris</option>
                 <option value="Jaringan Komputer">Jaringan Komputer</option>
@@ -38,20 +38,20 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="uts" class="col-4 col-form-label">Nilai UTS</label> 
-            <div class="col-8">
+            <label for="uts" class="col-md-4 col-sm-12 col-form-label">Nilai UTS</label> 
+            <div class="col-md-8 col-sm-6">
             <input id="uts" name="uts" placeholder="Nilai UTS" type="number" class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label for="uas" class="col-4 col-form-label">Nilai UAS</label> 
-            <div class="col-8">
+            <label for="uas" class="col-md-4 col-sm-12 col-form-label">Nilai UAS</label> 
+            <div class="col-md-8 col-sm-6">
             <input id="uas" name="uas" placeholder="Nilai UAS" type="number" class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label for="praktik" class="col-4 col-form-label">Nilai Praktik</label> 
-            <div class="col-8">
+            <label for="praktik" class="col-md-4 col-sm-12 col-form-label">Nilai Praktik</label> 
+            <div class="col-md-8 col-sm-6">
             <input id="praktik" name="praktik" placeholder="Nilai Praktikum" type="number" class="form-control">
             </div>
         </div> 
@@ -112,8 +112,10 @@
     
 <?php  if(isset($_GET["submit"]) ) :?>
 
+
+    <div class="container mt-5 mx-auto ">
     <div class="row my-5 mx-auto text center">
-        <div class="col-8 mx-auto" >
+        <div class="col-md-8 col-sm-12  mx-auto" >
         <table class="table text-center border bordered">
             <thead>
                 <tr>
@@ -138,6 +140,7 @@
 
 
     </div>
+</div>
 
     <?php endif; ?>
     

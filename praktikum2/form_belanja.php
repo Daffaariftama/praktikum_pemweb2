@@ -13,19 +13,19 @@
 </head>
 <body>
     <div class="row mt-5 ml-4 ">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <h2>Belanja Online</h2>
             <hr>
         <form method="post" action="">
   <div class="form-group row">
     <label for="Customer" class="col-4 col-form-label">Customer</label> 
-    <div class="col-8">
+    <div class="col-md-8 col-sm-6">
       <input id="Customer" name="customer" placeholder="Nama Customer" type="text" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label class="col-4">Pilih Produk</label> 
-    <div class="col-8">
+    <label class="col-md-4 col-sm-12">Pilih Produk</label> 
+    <div class="col-md-8 col-sm-6">
       <div class="custom-control custom-radio custom-control-inline">
         <input name="produk" id="produk_0" type="radio" class="custom-control-input" value=4200000> 
         <label for="produk_0" class="custom-control-label">TV</label>
@@ -42,12 +42,12 @@
   </div>
   <div class="form-group row">
     <label for="jumlah" class="col-4 col-form-label">Jumlah</label> 
-    <div class="col-8">
+    <div class="col-md-8 col-sm-6">
       <input id="jumlah" name="jumlah" placeholder="Jumlah" type="number" class="form-control">
     </div>
   </div> 
   <div class="form-group row">
-    <div class="offset-4 col-8">
+    <div class="offset-4 col-md-8 col-sm-12">
       <button name="submit" type="submit" class="btn btn-primary">Kirim</button>
     </div>
   </div>
@@ -55,7 +55,7 @@
 </div>
 <div class="col-1"></div>
 
-<div class="col-3">
+<div class="col-md-3 col-sm-12">
 <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
                     Daftar Harga
                 </button>
